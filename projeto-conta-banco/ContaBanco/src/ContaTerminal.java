@@ -13,7 +13,7 @@ public class ContaTerminal {
         String agencia = scanner.next();
 
         System.out.println("Digite o número da conta: ");
-        String conta = scanner.next();
+        int conta = scanner.nextInt();
 
         Double saldo = 237.48;
 
